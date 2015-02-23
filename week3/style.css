@@ -1,0 +1,20 @@
+body {
+	color: white;
+	background-color: rgb(249,172,255);
+	text-align:center;
+	font-family: Impact, Charcoal, sans-serif; 
+	font-size: 24px;
+}
+h1{
+	font-weight: bold;
+	font-size: 30px;
+}
+p{
+	text-decoration: underline;
+}
+h1{
+	color: white;
+}
+#slogan{
+	font-style: italic;
+}
