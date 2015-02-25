@@ -1,17 +1,23 @@
+#slogan{
+	font-family: 'Lobster', cursive;
+	font-size: 40 px;
+	font-style: italic;
+}
 body {
 	color: white;
 	background-color: rgb(249,172,255);
 	text-align:center;
-	font-family: Impact, Charcoal, sans-serif; 
-	font-size: 24px;
-	border-bottom: 21 px green;
+	font-size: 24 px;
+}
+title{
+
 }
 h1{
 	font-weight: bold;
 	font-size: 30px;
 }
 p{
-	text-decoration: underline;
+	font-family: arial;
 }
 h1{
 	color: white;
@@ -19,6 +25,4 @@ h1{
 ul{
 	padding: 5 px;
 }
-#slogan{
-	font-style: italic;
-}
+

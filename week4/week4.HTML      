@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+ <html> 
+
+    <head> 
+    <title>Your Wishlist</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1> Your Wishlist </h1>
+        <img src="iwant.jpg" alt="I want">
+        <hr>
+        <p id="slogan"> Your Little Wonderland </p>
+        <p> There is never too many WISHES. Let us help you keep track of your wishes and share your interesting ideas with the world. You might be suprise how many people share the same wish or willing to help you with your wishes.</p>
+        <ul>
+            <li>How Does it Work?</li>
+            <li>Create Your Wishlist</li>
+            <li>The World's Wishlists</li>
+        </ul>
+        <p> Contact me </p>
+        <p> 123ccat.zfy@gmail.com</p>
+        
+    </body>
+
+</html>
