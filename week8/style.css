@@ -1,0 +1,85 @@
+body {
+	color: white;
+	background-color: #DB875E;
+	text-align:center;
+	font-size: 24px;
+}
+header{
+	float: left;
+}
+nav{
+	float: right;
+	bottom: 0;
+	position: relative;
+	height: 65px;
+}
+hr{
+	width: 500px;
+	height: 4px;
+	border: none;
+	background-color: rgba(255,255,255,0.5);
+
+}
+h1{
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+}
+p{
+	font-family: arial;
+	clear: both;
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	bottom: 0;
+}
+ul li{
+	display: inline-block;
+	padding: 0px 10px;
+	font-size: 20px;
+}
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+.clearfix:after {   
+	visibility: hidden;   
+	display: block;   
+	content: " ";   
+	clear: both;   
+	height: 0;   
+	font-size: 0; 
+}
+.circle{
+	width: 300px;
+	height:300px;
+	background-color: rgba(50,1,10,0.5);
+	border-radius: 150px;
+	display: block;
+	float: left;
+}
+#container{
+	margin: 0 auto;
+	width: 600px;
+	clear: both;
+}
+#topbar{
+	width: 100%;
+	height:65px;
+	position: relative;
+}
+#slogan{
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	font-style: italic;
+}
+#hero{
+	clear: both;
+}
+
