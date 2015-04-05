@@ -64,6 +64,10 @@ li a:hover{
 	color:#000;
 }
 
+section{
+	height: 100vh;
+}
+
 img {
     opacity: 0.4;
     filter: alpha(opacity=40);
