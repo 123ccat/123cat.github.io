@@ -1,44 +1,69 @@
 body {
 	color: white;
-	background-color: #DB875E;
+	background-color: #EDDEA4;
 	text-align:center;
 	font-size: 24px;
 }
-header{
-	float: left;
-}
-nav{
-	float: right;
-	bottom: 0;
-	position: relative;
-	height: 65px;
-}
-hr{
-	width: 500px;
-	height: 4px;
-	border: none;
-	background-color: rgba(255,255,255,0.5);
 
+header{
+	text-align:center;
+	position: relative;
+  	top:50%;
+  	transform: translateY(-60%);
 }
+
 h1{
-	color: white;
+	font-size:6em;
+	letter-spacing:-.02em;
+	font-weight:400;
+	text-align:center;
+	font-family: 'Amatic SC', cursive;
 	font-weight: bold;
-	font-size: 60px;
 }
-p{
-	font-family: arial;
-	clear: both;
+
+h2{
+	font-family: 'Lora', serif;
+	font-weight: bold;
 }
+
+h3{
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;;
+	top: 50%;
+	position: relative;;
+}
+
+nav{
+	margin:0 auto;
+	width:100%;
+    background-color: #F7A072;
+	position: relative;
+}
+
 ul{
-	list-style: none;
+	margin:0 auto;
 	padding: 0px;
 	bottom: 0;
 }
 ul li{
 	display: inline-block;
-	padding: 0px 10px;
+	padding: 0px auto;
 	font-size: 20px;
 }
+li a{
+	display: inline;
+	padding:0 1em;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+li a:hover{
+	background-color: #FF9B42;
+	color:#000;
+}
+
 img {
     opacity: 0.4;
     filter: alpha(opacity=40);
@@ -48,21 +73,13 @@ img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); 
 }
-<<<<<<< HEAD
-.clearfix:after{
-	visibility: hidden;
-	display: block;
-	content:"";
-	clear: both;
-	height: 0;
-=======
+
 .clearfix:after {  
 	visibility: hidden;
 	display: block;
 	content: "."; 
 	clear: both;  
 	height: 0; 
->>>>>>> origin/master
 	font-size: 0;
 }
 .circle{
@@ -73,22 +90,25 @@ img:hover {
 	display: block;
 	float: left;
 }
+#title{
+	height: 100vh;
+	overflow: auto;
+	background: url(hero.jpg) no-repeat center center fixed;	 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
 #container{
 	margin: 0 auto;
 	width: 600px;
 	clear: both;
 }
-#topbar{
-	width: 100%;
-	height:65px;
-	position: relative;
-}
-#slogan{
-	font-family: 'Lobster', cursive;
-	font-size: 40px;
+
+#intro{
+	font-size: 0.5em;
 	font-style: italic;
 }
-#hero{
-	clear: both;
-}
+
+
 
