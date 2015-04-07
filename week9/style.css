@@ -47,19 +47,19 @@ ul{
 	bottom: 0;
 }
 ul li{
-	display: inline;
+	display: inline-block;
 	padding: 0px auto;
 	font-size: 20px;
 }
 li a{
-	display: inline;
+	display: inline-block;
 	padding:0 1em;
 	font-size: 1em;
 	text-decoration: none;
 }
 
 li a:hover{
-	background-color: #FF9B42;
+	background-color: #0FA3B1;
 	color:#000;
 }
 
@@ -113,12 +113,73 @@ img:hover {
 	font-style: italic;
 }
 
+
+#mainnav{
+	display: block;
+}
+
+
+#mobilenav{
+	display: none;
+}
+
+/*#wishlist h3, #follow h3, #sharedwishlist h3, #feedback h3{
+	vertical-align: middle;
+}*/
+
+#wishlist{
+	font-size: 20px;
+	display: block;
+	width: 50%;
+	height: 20px;
+	background-color: #FF9B42;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+#follow{
+	font-size: 15px;
+	display: block;
+	width: 30%;
+	height: 15px;
+	background-color: orange;
+	padding: 10px;
+}
+
+#sharedwishlist{
+	font-size: 18px;
+	display: block;
+	width: 40%;
+	height: 18px;
+	background-color: red;
+	padding: 5px;
+}
+
+#feedback{
+	font-size: 25px;
+	display: block;
+	width: 25%;
+	height: 25px;
+	background-color: green;
+	padding: 8px;
+}
+
+#manywishlist{
+	margin: 15px auto;
+	width: 70%;
+}
+
+
 @media screen and (max-width: 400px){
 	#mainnav{
 		display: none;
 	}
 
 	#mobilenav{
+		background-color: red;
+		display: block;
+	}
+	#mobilenav li, #mobilenav li a{
 		display: block;
 	}
 	}
